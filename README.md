@@ -3,6 +3,8 @@
 A simple JavaFX desktop application that converts temperatures between **Celsius and Fahrenheit**.
 This project is part of my JavaFX learning journey and focuses on basic UI layout, event handling, and user input processing.
 
+
+
 ## Features
 
 * Convert **Celsius → Fahrenheit**
@@ -11,12 +13,16 @@ This project is part of my JavaFX learning journey and focuses on basic UI layou
 * Input validation to prevent incorrect values
 * Instant result display
 
+
+
 ## Built With
 
 * **Java**
 * **JavaFX**
 * **VBox and HBox layouts**
 * **Labels, TextFields, and Buttons**
+
+
 
 ## How It Works
 
@@ -32,6 +38,9 @@ This project is part of my JavaFX learning journey and focuses on basic UI layou
 
 
 4.  The application calculates the result and displays it on the screen.
+
+
+
 
 ## Temperature Conversion Formulas
 
@@ -64,27 +73,30 @@ TemperatureConverterApp
 * **Java JDK 17+**
 * **JavaFX SDK**
 
-Make sure JavaFX is added to your project libraries when running the program.
 
-Example VM options:
+## How to run
 
+1. Navigate to the folder
 
---module-path "path_to_javafx_lib" --add-modules javafx.controls,javafx.fxml
+cd TemperatureConverter
+
+2. Run with maven
+
+mvn clean javafx: run
+
 
 
 ## Screenshots
 
-
-![Temperature Converter App](screenshots/celcius-to-faht-scale.png)
-![Temperature Converter App](screenshots/Faht-to-celcius.png)
-![Temperature Converter App](screenshots/main-menu.png)
-![Temperature Converter App](screenshots/result-in-faht.png)
-![Temperature Converter App](screenshots/wrong-input-type.png)
+![Main menu](screenshots/mainwindow.png)
+![Conversion scale](screenshots/scale1.png)
+![Successful conversion](screenshots/success.png)
+![Input validation](screenshots/error.png)
 
 
-## Concepts 
 
-This project helped me practice:
+## What I practised:
+
 
 * Creating JavaFX layouts using **VBox and HBox**
 * Handling **button click events**
@@ -101,12 +113,23 @@ This project helped me practice:
 * Add **better error messages**
 * Create a **dropdown for unit selection**
 
+
+
 ## Author
 
-**Hassan Karungwa**
+Hassan Karungwa;
 
-Part of my **JavaFX project portfolio** while learning Java GUI development.
+This is part of my **JavaFX project portfolio** while learning Java GUI development.
 
-## Goal
 
-Become a powerful software developer
+
+## Goals
+1. Understand programming well and develop 50+ projects
+2. Learn Database connection(SQL)
+3. Learn basics of web development
+4. Learn APIs
+
+
+## Vision
+
+Become a powerful problem solver in software development
